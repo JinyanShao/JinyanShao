@@ -51,7 +51,7 @@ A FHIR-oriented ingestion platform focused on validation, provenance, controlled
 - Swiss Permit B — authorised to work in Switzerland
 - AWS Certified Developer – Associate
 - Starting the BSc in Computer Science and Communication Systems at HEIA-FR in September 2026
-- Seeking an approximately 40% Student Software Engineer, Junior Application Developer, QA Automation or technically oriented Application Support role
+- Seeking an approximately 40% Student Software Engineer, Junior Application Developer, QA Automation or technically oriented Application Support role.
 - Open to French-speaking and bilingual teams within practical public-transport distance from Fribourg
 
 [Personal website](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me)
