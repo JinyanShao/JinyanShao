@@ -1,44 +1,45 @@
-# Hi, I'm Jinyan Shao
+# Jinyan Shao
 
-**Business Applications · Backend Systems · Automation**
+**Business application engineer building reliable systems with .NET, Angular and cloud infrastructure.**
 
-Software engineer based in Fribourg, Switzerland, with commercial experience in backend development, data workflows, and business automation.
-
-I build reliable business applications around APIs, databases, transactions, access control, testing, and operational workflows.
+Based in Fribourg, Switzerland. I design operational software around explicit domain rules, transactional data, access control, testing and maintainable delivery pipelines.
 
 ## Current focus
 
-- C# and .NET 8
-- ASP.NET Core and Entity Framework Core
-- Angular and TypeScript
-- SQL and PostgreSQL
-- Azure application delivery
+I am transferring commercial experience from Python, FastAPI, PostgreSQL, Docker and AWS into the Microsoft application ecosystem:
 
-My production-oriented experience is primarily in Python, FastAPI, PostgreSQL, Docker, and AWS. I am now transferring the same backend and business-application engineering principles into the Microsoft ecosystem. C#/.NET and Azure are my current development focus, not a claim of prior commercial .NET experience.
+- C# · .NET 8 · ASP.NET Core · Entity Framework Core
+- Angular · TypeScript
+- SQL Server · PostgreSQL
+- Docker · GitHub Actions · Azure
 
-## Selected work
+My .NET and Azure work is a current engineering focus, not a claim of prior commercial .NET experience.
+
+## Featured engineering work
+
+### [Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)
+
+A multi-site operations control tower built as one end-to-end enterprise application: C# domain modelling, ASP.NET Core Minimal APIs, EF Core, SQL Server, Angular 22, strict TypeScript, automated tests, Docker, CI and Azure Bicep.
 
 ### [Order Management API](https://github.com/JinyanShao/order-management-api)
 
-Multi-tenant business application backend with role-based access control, transactional inventory, concurrency control, idempotency, audit logging, and automated tests.
+A multi-tenant business backend with role-based access control, transactional inventory, concurrency control, idempotency, audit logging and automated tests.
 
 ### [Clinical Data Platform](https://github.com/JinyanShao/clinical-data-platform)
 
-FHIR-oriented ingestion and processing platform focused on validation, provenance, controlled access, and asynchronous workflows.
+A FHIR-oriented ingestion platform focused on validation, provenance, controlled access and asynchronous workflows.
 
-### [Sales Data Pipeline](https://github.com/JinyanShao/sales-data-pipeline)
+## What I care about
 
-Tested data-validation and reporting pipeline for repeatable sales workflows.
-
-## Engineering interests
-
-Business applications · Backend systems · Internal tools · Automation · Application reliability · Testing · Cloud delivery
+- Turning operational workflows into clear domain models
+- Reliable APIs, data integrity and observable failure modes
+- Tests that protect business rules rather than implementation details
+- Documentation that separates shipped behavior from roadmap work
 
 ## Current status
 
-- Based in Fribourg, Switzerland
-- Swiss Permit B
-- Starting the BSc in Computer Science and Communication Systems at HEIA-FR in September 2026
-- Seeking a part-time Student Software Engineer, Junior Application Developer, QA Automation, or Technical Application Support position in Switzerland
+- Fribourg, Switzerland · Swiss Permit B
+- BSc Computer Science and Communication Systems at HEIA-FR from September 2026
+- Open to part-time Student Software Engineer, Junior Application Developer, QA Automation and Technical Application Support roles in Switzerland
 
-[LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Personal website](https://jinyanshao.ch) · [Email](mailto:jinyanshao@proton.me)
+[Personal website](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me)
