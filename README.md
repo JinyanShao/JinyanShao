@@ -2,56 +2,87 @@
 
 **Business application engineer building reliable systems with .NET, Angular and cloud-delivery foundations.**
 
-Based in Fribourg, Switzerland, I design operational software around explicit domain rules, transactional data, access control, testing and maintainable delivery pipelines.
+Based in Fribourg, Switzerland, I build operational software around explicit business rules, transactional data, controlled access, automated testing and maintainable delivery workflows.
 
-My commercial background includes Python-based backend development, API integration, SQL data processing and workflow automation. My public engineering portfolio extends that foundation through production-oriented work with FastAPI, PostgreSQL, Docker, GitHub Actions and AWS concepts.
+My commercial experience includes Python backend development, API integration, SQL data processing and workflow automation. My public engineering portfolio extends that foundation through verified projects using C#, .NET 8, ASP.NET Core, Angular, SQL Server, PostgreSQL, Docker, GitHub Actions and cloud-delivery foundations.
 
 ## Current focus
 
-I am applying my existing backend and business-application experience to the Microsoft ecosystem through a working end-to-end project:
+I am building [[Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)](https://github.com/JinyanShao/helvetic-operations-platform), a multi-site Work Order management Web application for dispatchers and operations managers.
 
-- Guarded Work Order lifecycle rules, application services and a Work Order-specific repository boundary
-- EF Core 8 persistence with SQL Server, official migrations, `rowversion` optimistic concurrency and atomic audit events
-- ASP.NET Core Minimal APIs with FluentValidation, Problem Details, server-side pagination, filtering and allowlisted sorting
-- Microsoft Entra ID / MSAL authorization code flow and role-based access
-- Generated NSwag TypeScript client with drift checking
-- Angular 22 list, detail, create, edit, transition, cancellation, conflict-recovery and role-aware workflows
-- Automated backend, integration, authorization, repository, service, domain and Angular tests
+The application supports controlled creation, prioritisation, assignment, updating, status transitions and cancellation of operational work while preserving lifecycle rules, role-based access, audit history and concurrent-update safety.
 
-The repository also includes Docker images, GitHub Actions validation and an Azure Bicep infrastructure baseline. Production Azure deployment, Key Vault, private endpoints, production observability and a live authenticated Entra E2E environment remain roadmap work.
+The verified implementation includes:
+
+* A guarded Work Order lifecycle with explicit transition rules
+* Application-service and Work Order-specific repository boundaries
+* .NET 8 and ASP.NET Core Minimal APIs
+* EF Core 8 persistence with SQL Server and official migrations
+* SQL Server `rowversion` optimistic concurrency
+* Atomic audit-event persistence
+* FluentValidation and standards-based Problem Details responses
+* Server-side pagination, filtering and allowlisted sorting
+* Microsoft Entra ID and MSAL integration code with role-based authorization
+* A generated NSwag TypeScript client with deterministic drift checking
+* Angular 22 list, detail, create, edit, transition, cancellation and conflict-recovery workflows
+* Automated domain, application, persistence, API, authorization and Angular tests
+
+The repository also contains Docker delivery assets, GitHub Actions validation and an Azure Bicep infrastructure baseline. Production Azure deployment, Key Vault, private endpoints, production observability and live authenticated Entra E2E execution remain explicitly documented roadmap work.
 
 ## Featured engineering work
 
-### [Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)
+### [[Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)](https://github.com/JinyanShao/helvetic-operations-platform)
 
-A multi-site operations control tower built as an end-to-end enterprise application using C#, ASP.NET Core, EF Core 8, SQL Server, Angular 22 and strict TypeScript.
+A multi-site Work Order management Web application that helps dispatchers and operations managers control operational work, identify SLA risk, preserve audit history and handle concurrent updates safely.
 
-Verified results: 30 backend tests passed—8/8 API integration, 12/12 authorization, 3/3 Testcontainers repository, 4/4 service and 3/3 domain tests—plus 19 Angular tests. The backend Release build and Angular production build passed.
+Current engineering evidence includes 30 passing backend tests: 8 API integration tests, 12 authorization tests, 3 SQL Server Testcontainers repository tests, 4 application-service tests and 3 domain tests. The Angular application has 19 passing tests, and both the backend Release build and Angular production build pass.
 
-Eight Playwright E2E flows are implemented: 0 passed, 0 failed and 8 explicitly skipped because the Entra E2E base URL, role storage-state files and deterministic fixture IDs are unavailable. These flows remain implemented but require the roadmap's live authenticated Entra E2E environment to execute.
+Eight Playwright E2E flows are implemented for list, filtering and pagination, detail, create, edit, transition, Manager cancellation and conflict recovery. Their current result is 0 passed, 0 failed and 8 explicitly skipped because the required Entra E2E base URL, role-specific storage-state files and deterministic fixture IDs are unavailable.
 
-### [Order Management API](https://github.com/JinyanShao/order-management-api)
+The project demonstrates a verified delivery path from domain rules and SQL Server persistence through protected APIs, generated client contracts and Angular user workflows.
 
-A multi-tenant business backend with role-based access control, transactional inventory, concurrency control, idempotency, audit logging and automated tests.
+### [[Order Management API](https://github.com/JinyanShao/order-management-api)](https://github.com/JinyanShao/order-management-api)
 
-### [Clinical Data Platform](https://github.com/JinyanShao/clinical-data-platform)
+A backend for processing tenant-isolated orders while protecting inventory consistency under retries and concurrent requests.
 
-A FHIR-oriented ingestion platform focused on validation, provenance, controlled access and asynchronous workflows.
+It demonstrates multi-tenant isolation, role-based access control, transactional inventory, PostgreSQL row-level locking, idempotency, optimistic concurrency, state transitions, audit logging, request correlation and automated unit, integration and concurrency testing.
 
-## What I care about
+### [[Clinical Data Platform](https://github.com/JinyanShao/clinical-data-platform)](https://github.com/JinyanShao/clinical-data-platform)
 
-- Turning operational workflows into clear domain models
-- Reliable APIs, data integrity and observable failure modes
-- Tests that protect business rules rather than implementation details
-- Documentation that separates shipped behavior from roadmap work
+A controlled ingestion and processing platform for study-scoped healthcare and research data.
+
+It demonstrates Python backend engineering, CSV and FHIR-oriented validation, provenance, auditability, idempotent imports, controlled access, asynchronous processing, structured logging and health checks without claiming production medical compliance.
+
+## Engineering priorities
+
+* Translating operational workflows into explicit domain rules
+
+* Protecting data integrity through validation, transactions and concurrency control
+
+* Designing APIs with predictable authorization and failure contracts
+
+* Testing behavior across domain, application, persistence and delivery boundaries
+
+* Keeping verified implementation separate from future roadmap work
 
 ## Current status
 
-- Based in Fribourg, Switzerland
-- Swiss Permit B — authorised to work in Switzerland
-- AWS Certified Developer – Associate
-- Starting the BSc in Computer Science and Communication Systems at HEIA-FR in September 2026
-- Seeking an approximately 40% role as a Student Software Engineer, Junior Software Engineer, Application Developer, Junior .NET Developer or Application Support Engineer; QA Automation is an additional application direction.
-- Open to French-speaking and bilingual teams within practical public-transport distance from Fribourg
+* Based in Fribourg, Switzerland
+
+* Swiss Permit B — authorised to work in Switzerland
+
+* AWS Certified Developer – Associate, valid from September 2025 to September 2028
+
+* Starting the BSc in Computer Science and Communication Systems at HEIA-FR in September 2026
+
+* French: approximately B1
+
+* Seeking a role as a Student Software Engineer, Junior Software Engineer, Application Developer, Junior .NET Developer or Application Support Engineer
+
+* QA Automation remains an additional application direction
+
+* Approximately 40% availability by default, with around 40%–60% potentially discussable once the final HEIA-FR timetable is confirmed
+
+* Open to French-speaking and bilingual teams in Fribourg, Bern, Lausanne, Neuchâtel and Biel/Bienne where the commute is practical
 
 [Personal website](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me)
