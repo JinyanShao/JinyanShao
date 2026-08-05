@@ -1,88 +1,40 @@
 # Jinyan Shao
 
-**Business application engineer building reliable systems with .NET, Angular and cloud-delivery foundations.**
+[LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me) · [Personal Website](https://jinyanshao.ch)
 
-Based in Fribourg, Switzerland, I build operational software around explicit business rules, transactional data, controlled access, automated testing and maintainable delivery workflows.
+**Software developer combining Python and .NET engineering with a practical understanding of business operations and people.**
 
-My commercial experience includes Python backend development, API integration, SQL data processing and workflow automation. My public engineering portfolio extends that foundation through verified projects using C#, .NET 8, ASP.NET Core, Angular, SQL Server, PostgreSQL, Docker, GitHub Actions and cloud-delivery foundations.
+Based in Switzerland, I have approximately 1.5 years of professional software development experience, primarily in Python backend development, API integration, SQL data processing and workflow automation.
 
-## Current focus
+I am currently developing [Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform), a multi-site Work Order management web application for dispatchers and operations managers.
 
-I am building [[Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)](https://github.com/JinyanShao/helvetic-operations-platform), a multi-site Work Order management Web application for dispatchers and operations managers.
+The application supports controlled Work Order creation, prioritisation, assignment, information updates, status transitions and cancellation while protecting lifecycle rules, role-based access control, audit history and concurrent-update safety.
 
-The application supports controlled creation, prioritisation, assignment, updating, status transitions and cancellation of operational work while preserving lifecycle rules, role-based access, audit history and concurrent-update safety.
+## Featured Engineering Projects
 
-The verified implementation includes:
+### [Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)
 
-* A guarded Work Order lifecycle with explicit transition rules
-* Application-service and Work Order-specific repository boundaries
-* .NET 8 and ASP.NET Core Minimal APIs
-* EF Core 8 persistence with SQL Server and official migrations
-* SQL Server `rowversion` optimistic concurrency
-* Atomic audit-event persistence
-* FluentValidation and standards-based Problem Details responses
-* Server-side pagination, filtering and allowlisted sorting
-* Microsoft Entra ID and MSAL integration code with role-based authorization
-* A generated NSwag TypeScript client with deterministic drift checking
-* Angular 22 list, detail, create, edit, transition, cancellation and conflict-recovery workflows
-* Automated domain, application, persistence, API, authorization and Angular tests
+A multi-site Work Order management web application that helps dispatchers and operations managers manage operational work, identify SLA risks, preserve audit history and handle concurrent updates safely.
 
-The repository also contains Docker delivery assets, GitHub Actions validation and an Azure Bicep infrastructure baseline. Production Azure deployment, Key Vault, private endpoints, production observability and live authenticated Entra E2E execution remain explicitly documented roadmap work.
+The project demonstrates a complete delivery path from domain rules and SQL Server persistence to protected APIs, generated client contracts and Angular user workflows.
 
-## Featured engineering work
+### [Order Management API](https://github.com/JinyanShao/order-management-api)
 
-### [[Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)](https://github.com/JinyanShao/helvetic-operations-platform)
+A backend system for processing multi-tenant orders while protecting inventory consistency during request retries and concurrent operations.
 
-A multi-site Work Order management Web application that helps dispatchers and operations managers control operational work, identify SLA risk, preserve audit history and handle concurrent updates safely.
+The project covers multi-tenant isolation, transactional inventory management, PostgreSQL row-level locking, idempotency, optimistic concurrency control, role-based access control and automated testing.
 
-Current engineering evidence includes 30 passing backend tests: 8 API integration tests, 12 authorization tests, 3 SQL Server Testcontainers repository tests, 4 application-service tests and 3 domain tests. The Angular application has 19 passing tests, and both the backend Release build and Angular production build pass.
+### [Clinical Data Platform](https://github.com/JinyanShao/clinical-data-platform)
 
-Eight Playwright E2E flows are implemented for list, filtering and pagination, detail, create, edit, transition, Manager cancellation and conflict recovery. Their current result is 0 passed, 0 failed and 8 explicitly skipped because the required Entra E2E base URL, role-specific storage-state files and deterministic fixture IDs are unavailable.
+A controlled platform for ingesting and processing study-scoped healthcare and research data.
 
-The project demonstrates a verified delivery path from domain rules and SQL Server persistence through protected APIs, generated client contracts and Angular user workflows.
+The project covers Python backend development, CSV and FHIR data validation, data provenance, idempotent imports, controlled access, asynchronous processing and structured logging.
 
-### [[Order Management API](https://github.com/JinyanShao/order-management-api)](https://github.com/JinyanShao/order-management-api)
+## Current Status
 
-A backend for processing tenant-isolated orders while protecting inventory consistency under retries and concurrent requests.
-
-It demonstrates multi-tenant isolation, role-based access control, transactional inventory, PostgreSQL row-level locking, idempotency, optimistic concurrency, state transitions, audit logging, request correlation and automated unit, integration and concurrency testing.
-
-### [[Clinical Data Platform](https://github.com/JinyanShao/clinical-data-platform)](https://github.com/JinyanShao/clinical-data-platform)
-
-A controlled ingestion and processing platform for study-scoped healthcare and research data.
-
-It demonstrates Python backend engineering, CSV and FHIR-oriented validation, provenance, auditability, idempotent imports, controlled access, asynchronous processing, structured logging and health checks without claiming production medical compliance.
-
-## Engineering priorities
-
-* Translating operational workflows into explicit domain rules
-
-* Protecting data integrity through validation, transactions and concurrency control
-
-* Designing APIs with predictable authorization and failure contracts
-
-* Testing behavior across domain, application, persistence and delivery boundaries
-
-* Keeping verified implementation separate from future roadmap work
-
-## Current status
-
-* Based in Fribourg, Switzerland
-
-* Swiss Permit B — authorised to work in Switzerland
-
-* AWS Certified Developer – Associate, valid from September 2025 to September 2028
-
+* Swiss Permit B holder, authorised to work in Switzerland
+* AWS Certified Developer – Associate
 * Starting the BSc in Computer Science and Communication Systems at HEIA-FR in September 2026
-
-* French: approximately B1
-
-* Seeking a role as a Student Software Engineer, Junior Software Engineer, Application Developer, Junior .NET Developer or Application Support Engineer
-
-* QA Automation remains an additional application direction
-
-* Approximately 40% availability by default, with around 40%–60% potentially discussable once the final HEIA-FR timetable is confirmed
-
-* Open to French-speaking and bilingual teams in Fribourg, Bern, Lausanne, Neuchâtel and Biel/Bienne where the commute is practical
-
-[Personal website](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me)
+* French: approximately B1-B2
+* Seeking Software Engineer, Junior Software Engineer, Application Developer or Application Support Engineer roles
+* Approximately 40% availability by default, with the final workload open for discussion once the HEIA-FR timetable is confirmed
