@@ -2,7 +2,7 @@
 
 [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me) · [Personal Website](https://jinyanshao.ch)
 
-**Junior software engineer focusing on C#/.NET and business applications, with professional Python backend experience and a background in HR business partnering.**
+**Software engineer focusing on C#/.NET and business applications, with professional Python backend experience and a background in HR business partnering.**
 
 Based in Switzerland, I have approximately 1.5 years of professional software development experience, mainly in Python backend development, API integration, SQL, data processing and workflow automation.
 
