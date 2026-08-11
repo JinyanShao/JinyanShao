@@ -34,7 +34,7 @@ The project covers CSV and FHIR Bundle ingestion, validation, provenance, study-
 
 ## Current Status
 
-- Based in Fribourg, Switzerland
+- Based in Switzerland
 - Swiss Permit B — authorised to work in Switzerland
 - AWS Certified Developer – Associate
 - Starting the BSc in Computer Science and Communication Systems at HEIA-FR in September 2026
