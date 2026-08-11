@@ -4,7 +4,7 @@
 
 **Junior software engineer focusing on C#/.NET and business applications, with professional Python backend experience and a background in HR business partnering.**
 
-Based in Fribourg, Switzerland, I have approximately 1.5 years of professional software development experience, mainly in Python backend development, API integration, SQL, data processing and workflow automation.
+Based in Switzerland, I have approximately 1.5 years of professional software development experience, mainly in Python backend development, API integration, SQL, data processing and workflow automation.
 
 C#/.NET was the main technical direction during my software studies, and I am now developing that foundation further through ASP.NET Core, EF Core, SQL Server and Angular projects.
 
