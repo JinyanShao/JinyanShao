@@ -2,41 +2,54 @@
 
 [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me) · [Personal Website](https://jinyanshao.ch)
 
-**Software engineer focusing on C#/.NET and business applications, with professional Python backend experience and a background in HR business partnering.**
+**Software developer focused on C#/.NET, backend engineering and business applications, with approximately 1.5 years of professional software development experience.**
 
-Based in Switzerland, I have approximately 1.5 years of professional software development experience, mainly in Python backend development, API integration, SQL, data processing and workflow automation.
+My professional experience is mainly in Python backend development, API integration, SQL, data processing and workflow automation. At Hangzhou Starlink Engine, I worked on FastAPI services and internal tools supporting live-streaming and e-commerce operations.
 
-C#/.NET was the main technical direction during my software studies, and I am now developing that foundation further through ASP.NET Core, EF Core, SQL Server and Angular projects.
+I am currently focusing on C#/.NET development and building further experience with ASP.NET Core, EF Core, SQL Server and Angular. C# was also the main programming language during my earlier software studies, together with SQL and database development.
 
-My HRBP experience also gives me a practical perspective on requirements, business processes and cross-functional collaboration — a perspective I now bring back into software development.
+I also spent over a year working as an HR Business Partner. That experience gave me a practical understanding of business processes, changing requirements and cross-functional collaboration, which I now bring into software development.
 
 ## Featured Engineering Projects
 
 ### [Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)
 
-A multi-site operations management application built with C#/.NET, ASP.NET Core, EF Core, SQL Server and Angular.
+A business application for managing multi-site operational work orders, built with C#/.NET, ASP.NET Core, EF Core, SQL Server and Angular.
 
-The current implementation includes guarded work-order lifecycle rules, application and repository boundaries, SQL Server persistence, ASP.NET Core Minimal APIs, an Angular operations dashboard, domain tests, Docker containers and GitHub Actions validation.
+The application includes controlled work-order lifecycle transitions, role-based workflows, audit history, optimistic concurrency handling, SQL Server persistence, ASP.NET Core APIs and an Angular operations interface.
 
-The project focuses on translating operational rules and workflows into maintainable application behaviour.
+The project also includes automated backend and frontend tests, Docker-based environments and GitHub Actions CI.
+
+Its main focus is turning operational rules and business workflows into reliable application behaviour.
 
 ### [Order Management API](https://github.com/JinyanShao/order-management-api)
 
 A Python/FastAPI backend for multi-tenant order and inventory workflows.
 
-It demonstrates transactional inventory handling, PostgreSQL row-level locking, idempotency, optimistic concurrency control, RBAC, audit logging and automated unit, integration and concurrency testing.
+The project covers transactional inventory handling, PostgreSQL row-level locking, idempotent order creation, optimistic concurrency control, tenant isolation, RBAC, audit logging and automated unit, integration and concurrency testing.
+
+It focuses on data integrity and predictable behaviour under concurrent business operations.
 
 ### [Clinical Data Platform](https://github.com/JinyanShao/clinical-data-platform)
 
-A Python/FastAPI backend for ingesting and processing clinical-research data.
+A Python/FastAPI backend for structured clinical-research data ingestion and processing.
 
-The project covers CSV and FHIR Bundle ingestion, validation, provenance, study-scoped access control, idempotent imports, asynchronous processing and operational diagnostics.
+The project includes CSV and FHIR Bundle ingestion, validation, provenance tracking, study-scoped access control, idempotent imports, asynchronous processing and operational diagnostics.
 
-## Current Status
+## Current Focus
 
-- Based in Switzerland
-- Swiss Permit B — authorised to work in Switzerland
+- C# / .NET
+- ASP.NET Core
+- EF Core
+- SQL Server and relational data modelling
+- Backend and business application development
+- Automated testing and CI/CD
+
+## Professional Background
+
+- Approximately 1.5 years of professional software development experience
+- Python backend development, APIs, SQL, data processing and workflow automation
+- Business process and cross-functional experience from HR business partnering
 - AWS Certified Developer – Associate
-- Starting the BSc in Computer Science and Communication Systems at HEIA-FR in September 2026
-- Current focus: C#/.NET, ASP.NET Core, SQL and business applications
-- Professional background: Python backend, APIs, SQL, data processing and automation
+- Swiss Permit B — authorised to work in Switzerland
+- Based in Switzerland
