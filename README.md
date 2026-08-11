@@ -40,4 +40,3 @@ The project covers CSV and FHIR Bundle ingestion, validation, provenance, study-
 - Starting the BSc in Computer Science and Communication Systems at HEIA-FR in September 2026
 - Current focus: C#/.NET, ASP.NET Core, SQL and business applications
 - Professional background: Python backend, APIs, SQL, data processing and automation
-- Available around 40% during the semester
