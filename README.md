@@ -10,7 +10,7 @@ I am currently focusing on C#/.NET development and building further experience w
 
 I also spent over a year working as an HR Business Partner. That experience gave me a practical understanding of business processes, changing requirements and cross-functional collaboration, which I now bring into software development.
 
-## Featured Engineering Projects
+## Featured Projects
 
 ### [Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)
 
@@ -50,6 +50,6 @@ The project includes CSV and FHIR Bundle ingestion, validation, provenance track
 - Approximately 1.5 years of professional software development experience
 - Python backend development, APIs, SQL, data processing and workflow automation
 - Business process and cross-functional experience from HR business partnering
-- AWS Certified Developer – Associate
+- AWS Certified Developer – Associate; IBM Advanced Software Engineer
 - Swiss Permit B — authorised to work in Switzerland
 - Based in Switzerland
