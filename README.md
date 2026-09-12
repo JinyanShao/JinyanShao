@@ -2,9 +2,9 @@
 
 [Website](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me)
 
-Software developer based in Switzerland, focused on **C#/.NET, backend engineering, and business applications**.
+Software Engineer based in Switzerland, focused on **C#/.NET, backend engineering, and business applications**.
 
-My professional background is mainly in Python backend development, APIs, SQL, data processing, and workflow automation. I currently work primarily with C#/.NET, ASP.NET Core, EF Core, SQL Server, and related application technologies.
+My professional background is mainly in Python backend development, APIs, SQL, data processing, and workflow automation. My current engineering focus is C#/.NET, ASP.NET Core, EF Core, SQL Server, and related application technologies.
 
 I am particularly interested in software where business rules, data integrity, and real-world processes matter: operational systems, administrative workflows, reliable APIs, and tools built around concrete user problems.
 
@@ -59,6 +59,8 @@ It covers transactional inventory handling, PostgreSQL row locking, idempotent o
 Before focusing on C#/.NET, I worked professionally with Python backend services, API integrations, SQL, data processing, and internal operational tools.
 
 I also previously worked as an HR Business Partner. That experience gave me direct exposure to changing requirements, cross-functional processes, operational constraints, and the gap that often exists between a business rule on paper and its actual implementation in software.
+
+HEIA-FR | HES-SO — Bachelor of Science HES-SO in Computer Science and Communication Systems (2026–present)
 
 AWS Certified Developer – Associate · IBM Advanced Software Engineer
 
