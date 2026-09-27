@@ -2,7 +2,7 @@
 
 [Website](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me)
 
-Software Engineer based in Switzerland, focused on **C#/.NET, backend engineering, and business applications**.
+I turn complex business rules into reliable software. Backend engineer in Fribourg, Switzerland: **Python/FastAPI in production**, current focus **C#/.NET business applications**.
 
 My professional background is mainly in Python backend development, APIs, SQL, data processing, and workflow automation. My current engineering focus is C#/.NET, ASP.NET Core, EF Core, SQL Server, and related application technologies.
 
@@ -65,5 +65,7 @@ I also previously worked as an HR Business Partner. That experience gave me dire
 HEIA-FR | HES-SO — Bachelor of Science HES-SO in Computer Science and Communication Systems (2026–present)
 
 AWS Certified Developer – Associate · IBM Advanced Software Engineer
+
+CS student at HEIA-FR (HES-SO) · Available Fridays and during academic breaks (summer 2027 internship)
 
 Based in Switzerland · Swiss Permit B
