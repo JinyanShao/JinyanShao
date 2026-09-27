@@ -18,6 +18,8 @@ Built with **C#/.NET and ASP.NET Core Razor Pages**, it turns publicly available
 
 The project is deployed publicly and keeps its decision rules tied to a reviewed inventory of official Ville de Fribourg, Canton de Fribourg, and OCN sources.
 
+**[Live demo](https://sepa-jinyan.azurewebsites.net)**
+
 **C# · .NET · ASP.NET Core · Razor Pages · xUnit · Azure**
 
 ### [Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)
