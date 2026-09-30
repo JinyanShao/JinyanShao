@@ -2,7 +2,7 @@
 
 [Website](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me)
 
-I turn complex business rules into reliable software. Backend engineer in Fribourg, Switzerland: **Python/FastAPI in production**, current focus **C#/.NET business applications**.
+I turn complex business rules into reliable software. Backend Developer in Fribourg, Switzerland: **Python/FastAPI in production**, current focus **C#/.NET business applications**.
 
 My professional background is mainly in Python backend development, APIs, SQL, data processing, and workflow automation. My current engineering focus is C#/.NET, ASP.NET Core, EF Core, SQL Server, and related application technologies.
 
