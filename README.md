@@ -1,86 +1,30 @@
 # Jinyan Shao
 
-[Website](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · [Email](mailto:jinyanshao@proton.me)
+Back-end developer (Python/FastAPI) and Computer Science student at HEIA-FR (HES-SO), Fribourg.
 
-I turn complex business rules into reliable software. Backend Developer in Fribourg, Switzerland: **Python/FastAPI in production**, current focus **C#/.NET business applications**.
+From 2021 to 2023 I was responsible for FastAPI modules in production at a live-streaming and e-commerce company in Hangzhou. I now study in French and build public projects around one question: what must still be true when two requests collide, a row is bad, or a user should not see a record?
 
-My professional background is mainly in Python backend development, APIs, SQL, data processing, and workflow automation. My current engineering focus is C#/.NET, ASP.NET Core, EF Core, SQL Server, and related application technologies.
+Available Fridays during the semester and full-time during academic breaks, including summer 2027. Swiss Permit B.
+[jinyanshao.ch](https://jinyanshao.ch) · [LinkedIn](https://www.linkedin.com/in/jinyanshao) · jinyanshao@proton.me
 
-I am particularly interested in software where business rules, data integrity, and real-world processes matter: operational systems, administrative workflows, reliable APIs, and tools built around concrete user problems.
+## Start here
 
-## Selected Projects
+- **[Order Management API](https://github.com/JinyanShao/order-management-api)** (FastAPI, PostgreSQL). Inventory changes lock order and product rows in a fixed order; order creation is idempotent per user and organisation. A PostgreSQL test makes two confirmations compete for stock that covers one: exactly one succeeds. CI requires 90% coverage.
+- **[Clinical Data Platform](https://github.com/JinyanShao/clinical-data-platform)** (FastAPI, Celery, PostgreSQL). Imports are idempotent and use per-record savepoints, so one bad row does not fail the job. Source rows are kept as append-only provenance, and row-level security backs the API roles. Synthetic data; not a FHIR server.
+- **[Swiss Event Permit Assistant](https://github.com/JinyanShao/swiss-event-permit-assistant)** (ASP.NET Core Razor Pages). An independent, non-official tool that turns Fribourg's event-permit requirements into a guided checklist with links to the official sources. The source catalogue is itself a tested domain object, re-checked quarterly. Tested by Bénévolat Fribourg Freiburg; their feedback exposed a questionnaire defect, now fixed with regression coverage. [Live demo](https://sepa-jinyan.azurewebsites.net) (first load may take ~30 s).
+- **[Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)** (.NET 8, EF Core, SQL Server, Angular). A multi-site work-order application with Entra ID, role-based authorisation, audit history and `rowversion` concurrency.
 
-### [Swiss Event Permit Assistant](https://github.com/JinyanShao/swiss-event-permit-assistant)
+## Built while learning French
 
-A French-language web application for preparing temporary event permit dossiers in Fribourg, Switzerland.
+I moved to French-speaking Switzerland and needed the language, so I built my own tools for it.
 
-Built with **C#/.NET and ASP.NET Core Razor Pages**, it turns publicly available administrative requirements into a guided questionnaire with required actions, documents, deadlines, confirmation points, and links back to official sources. The official source catalogue is itself a tested domain object, re-checked quarterly.
+- [Plume Française](https://github.com/JinyanShao/Plume-Francaise): a native macOS input method for French in Objective-C++ (Input Method Kit): accent completion, French typographic spacing and apostrophes, 405 verbs conjugated across four tenses, and agreement of past participles with a preceding direct object. Shipped as a signed `.pkg` with checksummed releases.
+- [wordcloud](https://github.com/JinyanShao/wordcloud): 9,067 French words as a navigable relation graph, rebuilt from pinned DBnary and Wiktionnaire snapshots. Source hashes are gated in CI, and relations from linguistic sources are kept separate from ones I authored. [Live demo](https://jinyanshao.github.io/wordcloud/)
 
-Externally tested by Bénévolat Fribourg Freiburg, whose feedback exposed a real questionnaire defect — fixed, with regression coverage.
+## Also
 
-**[Live demo](https://sepa-jinyan.azurewebsites.net)** (first load may take ~30 s: free-tier cold start)
-
-**C# · .NET · ASP.NET Core · Razor Pages · xUnit · Azure**
-
-### [Helvetic Operations Platform](https://github.com/JinyanShao/helvetic-operations-platform)
-
-A multi-site work-order management application built around operational workflows and controlled state transitions.
-
-The system includes domain-enforced lifecycle rules, Microsoft Entra ID authentication, role-based authorization, audit history, SQL Server persistence, optimistic concurrency with `rowversion`, generated API contracts, an Angular frontend, Docker-based environments, and automated testing across multiple layers.
-
-**C# · .NET 8 · ASP.NET Core · EF Core · SQL Server · Angular · TypeScript · Docker**
-
-### [Order Management API](https://github.com/JinyanShao/order-management-api)
-
-A multi-tenant backend for order and inventory workflows.
-
-It covers transactional inventory handling, PostgreSQL row locking in deterministic order, idempotent order creation scoped to user and organisation, optimistic concurrency control, tenant isolation, RBAC, audit logging, and concurrent integration testing.
-
-**Python · FastAPI · PostgreSQL · SQLAlchemy · Docker · GitHub Actions**
-
-### [Clinical Data Platform](https://github.com/JinyanShao/clinical-data-platform)
-
-A FHIR-oriented backend for validated ingestion of synthetic clinical-research data.
-
-Idempotent import jobs with per-record savepoints so one bad row does not fail an import, append-only provenance, asynchronous processing, and reads governed by API roles plus PostgreSQL row-level security.
-
-**Python · FastAPI · PostgreSQL · Celery · Alembic · Docker**
-
-## Built While Learning French
-
-I moved to French-speaking Switzerland and needed the language, so I built my own tools for it. These are not client work; they are what a long-term commitment to living and working here looks like in code.
-
-* [Plume Française](https://github.com/JinyanShao/Plume-Francaise) — a native macOS input method for French, written in Objective-C++ against the Input Method Kit: accent completion, French typographic spacing and apostrophes, 405 verbs conjugated across four tenses, pronoun-aware ranking, and agreement of past participles with a preceding direct object. Shipped as a signed `.pkg` with checksummed releases.
-* [wordcloud](https://github.com/JinyanShao/wordcloud) — 9,067 French words as a navigable relation graph, rebuilt from pinned DBnary and Wiktionnaire snapshots. Source hashes are gated in CI, graph coordinates are deterministic across platforms, and relations taken from linguistic sources are kept explicitly separate from ones I authored myself. **[Live demo](https://jinyanshao.github.io/wordcloud/)**
-
-## Other Work
-
-* [EvidenceBid](https://github.com/JinyanShao/evidencebid) — source-aware workspace turning RFP documents into traceable compliance checklists and evidence-linked response drafts. Parses DOCX/XLSX with Docling; no LLM generates the prose.
-* [Sales Data Pipeline](https://github.com/JinyanShao/sales-data-pipeline) — Python batch pipeline with explicit validation, rejected-record handling, reconciliation, reporting, and CI.
-* [pencil-racer](https://github.com/JinyanShao/pencil-racer) — a 3D arcade racing prototype in Godot 4.6 with a notebook blue-pencil visual style. Built for fun.
-
-## Current Focus
-
-* C# and .NET
-* ASP.NET Core
-* EF Core and relational data modelling
-* Backend and business application development
-* Domain and workflow modelling
-* Automated testing
-* CI/CD and reproducible delivery
+[Sales Data Pipeline](https://github.com/JinyanShao/sales-data-pipeline) (validated batch ingestion with rejected-record handling and CI) · [EvidenceBid](https://github.com/JinyanShao/evidencebid) (RFP documents to traceable compliance checklists; no LLM writes the prose) · [pencil-racer](https://github.com/JinyanShao/pencil-racer) (a Godot prototype, for fun)
 
 ## Background
 
-Before focusing on C#/.NET, I worked professionally with Python backend services, API integrations, SQL, data processing, and internal operational tools at Hangzhou Starlink Engine Network Technology (2021–2023): three production FastAPI modules covering live-streaming business data, host scheduling and third-party data synchronisation.
-
-I also previously worked as an HR Business Partner. That experience gave me direct exposure to changing requirements, cross-functional processes, operational constraints, and the gap that often exists between a business rule on paper and its actual implementation in software.
-
-HEIA-FR | HES-SO — Bachelor of Science HES-SO in Computer Science and Communication Systems (2026–present), taught in French
-
-AWS Certified Developer – Associate (2025)
-
-Lanqiao Cup (Blue Bridge Cup), Java — 1st prize in Shanghai, award of excellence in the national final (2019); the award carried an IBM-issued certificate
-
-CS student at HEIA-FR (HES-SO) · Available Fridays and during academic breaks (summer 2027 internship)
-
-Based in Fribourg, Switzerland · Swiss Permit B
+Python back end at Hangzhou Starlink Engine Network Technology (2021–2023), then HR Business Partner for data and digital teams. AWS Certified Developer – Associate (2025).
