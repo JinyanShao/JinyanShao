@@ -51,8 +51,6 @@ I moved to French-speaking Switzerland and needed the language, so I built my ow
 
 ### Tools I built for my own work
 
-> 这一组只放一个。判断依据见 §6.6（我把仓库都 clone 下来读过了）。
-
 - [automation-toolkit](https://github.com/JinyanShao/automation-toolkit): tested Python CLI
   utilities for safe file processing — dry-run first, never overwrite, conflicts resolved by
   rule. CI on every push.
